@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{menuIsOpen: false}">
+<html lang="fr" x-data="{menuIsOpen: false}":class="{noscroll:menuIsOpen,}">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,8 +11,8 @@
         position: fixed;
         top:0;
         left:0;
-        width:0;
-        height:0;
+        width:100vw;
+        height:100vh;
         background: #fff;
         display: grid;
         place-content: center;
