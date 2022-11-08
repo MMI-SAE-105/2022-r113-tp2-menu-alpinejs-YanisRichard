@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" x-data="{menuIsOpen: false}">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,7 +13,7 @@
     <header>
       <button aria-controls="mainNav">menu</button>
       <h1>Test de menu</h1>
-      <nav id="mainNav">
+      <nav id="mainNav" x-show="menuIsOpen">
         <ul>
           <li><a href="#">item 1</a></li>
           <li><a href="#">item 2</a></li>
